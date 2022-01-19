@@ -122,7 +122,7 @@ GridSearchCV for finding the best optimal combination of hyperparameters for oth
 
 ![Picture19](https://user-images.githubusercontent.com/44596318/142511741-c63425a0-7e1a-4589-9639-ef1571ec0908.jpg)
 
-Our GridSearchCV applies a ‘fit’ and a ‘score’ method as well as a ‘predict’ using the scaled train data and defined models in the pipelines. I used a simple “for” loop with GridSearchCV which tries each of the classifiers one by one with the corresponding parameter grid specified in the dictionary. Also, to check if the model is overfitting, we added predict with test data too.  
+Our GridSearchCV applies a ‘fit’ and a ‘score’ method as well as a ‘predict’ using the scaled train data and defined models in the pipelines. We used a simple “for” loop with GridSearchCV which tries each of the classifiers one by one with the corresponding parameter grid specified in the dictionary. Also, to check if the model is overfitting, we added predict with test data too.  
 
 ![Picture20](https://user-images.githubusercontent.com/44596318/142511742-d6eb733f-9faa-474b-ba86-aba79623d098.jpg)
 
